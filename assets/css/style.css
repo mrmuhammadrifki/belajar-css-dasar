@@ -4,7 +4,7 @@ h1 {
 
 #container {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   background-color: #003049;
   width: 90%;
   height: 500px;
@@ -13,6 +13,6 @@ h1 {
 }
 
 #container div {
-  width: 200px;
+  width: 400px;
   height: 200px;
 }

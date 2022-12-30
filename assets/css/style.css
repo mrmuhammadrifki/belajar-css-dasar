@@ -1,14 +1,17 @@
 h1 {
   color: white;
-  background-color: cornflowerblue;
+  /* Rgb */
+  background-color: rgb(100, 149, 237);
 }
 
 button {
   color: darkviolet;
-  background-color: tan;
+  /* Heksa */
+  background-color: #d2b48c;
 }
 
 p {
+  /* Color Names */
   color: white;
   background-color: grey;
 }

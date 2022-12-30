@@ -12,3 +12,9 @@ body {
   background-color: gray;
   color: white;
 }
+
+/* Atribute Selector */
+input[type="text"] {
+  color: red;
+  margin-bottom: 5px;
+}

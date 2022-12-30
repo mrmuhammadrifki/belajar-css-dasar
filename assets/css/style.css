@@ -1,17 +1,14 @@
 h1 {
-  color: white;
-  /* Rgb */
-  background-color: rgb(100, 149, 237);
-}
-
-button {
-  color: darkviolet;
-  /* Heksa */
-  background-color: #d2b48c;
+  text-align: center;
+  /* font-weight: 700; */
+  text-decoration: underline overline dotted rgba(230, 26, 26, 0.726);
 }
 
 p {
-  /* Color Names */
-  color: white;
-  background-color: grey;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+a {
+  text-decoration: none;
 }

@@ -1,9 +1,11 @@
-div {
-  width: 300px;
-  border: 15px solid green;
-  padding: 50px;
-  margin: 20px auto;
-  border-style: double dashed inset groove;
-  border-width: 5px 10px 15px 20px;
-  border-color: red yellow green blue;
+span {
+  display: inline-block;
+  background-color: cornflowerblue;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+}
+
+span:nth-of-type(2) {
+  width: 400px;
 }

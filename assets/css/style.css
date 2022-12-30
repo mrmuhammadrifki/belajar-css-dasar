@@ -1,7 +1,26 @@
+/* Pseudo Clasess */
 section:nth-of-type(2n) {
   background-color: rgb(112, 110, 110);
   color: white;
 }
+
 li:nth-child(-n + 3) {
   color: red;
+}
+
+/* Pseudo Elements */
+section p::first-letter {
+  font-size: 3em;
+}
+
+section p::first-line {
+  color: red;
+}
+
+section h2::after {
+  content: "*";
+}
+
+section h2::before {
+  content: "*";
 }

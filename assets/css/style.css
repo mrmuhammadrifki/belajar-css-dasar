@@ -1,17 +1,14 @@
-h1 {
-  text-align: center;
-  /* font-weight: 700; */
-  text-decoration: underline overline dotted rgba(230, 26, 26, 0.726);
-  font-size: 150%;
+body {
+  background-color: cornflowerblue;
 }
 
-p {
-  line-height: 1.5;
-  letter-spacing: 1px;
-  font-size: 1.3em;
+/* Direct Descandent */
+.tulisan > p {
+  color: white;
 }
 
-a {
-  text-decoration: none;
-  font-size: 1.5rem;
+/* Ajdacent Selector */
+#tulisan2 + button {
+  background-color: gray;
+  color: white;
 }

@@ -1,21 +1,52 @@
+body {
+  font-family: "Calibri", sans-serif;
+}
+
 h1 {
+  font-size: 6em;
   text-align: center;
+  color: red;
+}
+nav {
+  font-size: 1.5em;
 }
 
-#container {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: center;
-  align-content: space-around;
-  background-color: #003049;
-  width: 90%;
-  height: 500px;
-  margin: 0 auto;
-  border: 5px solid #003049;
+ul,
+li {
+  display: inline;
+  margin: 0;
+  padding: 0;
 }
 
-#container div {
-  width: 400px;
-  height: 200px;
+/* @media (width: 500px) {
+  h1 {
+    color: aquamarine;
+  }
+} */
+
+@media screen and (min-width: 500px) {
+  h1 {
+    color: crimson;
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  h1 {
+    color: blueviolet;
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  h1 {
+    color: yellow;
+    font-size: 60px;
+  }
+}
+
+@media screen and (orientation: landscape) {
+  body {
+    background-color: cornflowerblue;
+  }
 }

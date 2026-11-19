@@ -248,4 +248,29 @@ body {
   }
 }
 
+/* Badge paket populer */
+.pricing-plan {
+  position: relative;
+}
+
+.pricing-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #ffd54f;
+  color: #ffffff;
+  font-size: 9px;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.pricing-button:focus {
+  outline: none;
+}
+
+.pricing-button.is-featured {
+  background-color: #48aaff !important;
+  width: 180px;
+}
+
 /* My CSS End */
